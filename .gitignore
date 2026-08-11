@@ -1,0 +1,10 @@
+# mouse_connectivity_models is cloned separately (see README) - it is its own
+# git repository (has its own .git/), so individual files inside it cannot be
+# selectively tracked from this repo. See mouse_connectivity_models.pyproject.toml
+# for its pinned-dependency snapshot instead.
+mouse_connectivity_models/
+
+# Python environments (regenerate from pyproject.toml / uv.lock)
+.venv/
+__pycache__/
+*.pyc
