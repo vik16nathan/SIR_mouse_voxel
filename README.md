@@ -1,5 +1,5 @@
 # SIR_mouse_voxel
-The following repository is a voxelwise implementation of ... for predicting atrophy data using the rebuilt connectome from Nathan et al., 2026, _Imaging Neuroscience_.
+The following repository is a voxelwise implementation of https://github.com/vik16nathan/SIR_mouse_regional_tuned for predicting MRI atrophy data in mice, following the injection of aSyn into CP and HIP epicentres. Notably, we use a QC'd, voxelwise structural connectome (see Nathan et al., 2026, _Imaging Neuroscience_) and restrict our analyses to capture local aSyn propagation within the CP and HIP voxels, allowing us to tune the SIR model to capture how differences in the simulated spreading patterns predict our empirical data. 
 
 Minor algorithmic changes from https://github.com/srahayel/SIR_mouse to the current implementation of AgentBasedModel.py:
 
